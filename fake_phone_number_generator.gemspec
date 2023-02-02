@@ -9,6 +9,6 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/rockwellll/fake_phone_number_generator"
   s.license       = 'MIT'
 
-  s.add_runtime_dependency "phonelib", '~> 0.6.45'
+  s.add_runtime_dependency "phonelib"
   s.add_runtime_dependency "countries", '~> 4.2', '>= 4.2.1'
 end
